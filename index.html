@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>MacAway</title>
 <meta name="description" content="Locks your Mac within seconds of you walking away, using the iPhone or Apple Watch already in your pocket.">
 <link rel="icon" href="icon.png">
@@ -49,6 +50,11 @@
     padding: 14px 28px; border-radius: 12px;
   }
   .button:hover { opacity: 0.9; }
+  .button-off {
+    background: transparent; color: var(--muted);
+    border: 1px solid var(--line); cursor: default;
+  }
+  .button-off:hover { opacity: 1; }
   .requirement { color: var(--muted); font-size: 15px; margin-top: 14px; }
   section { margin-top: 64px; }
   h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.08em;
@@ -77,9 +83,9 @@
     <h1>MacAway</h1>
     <p class="tagline">Your Mac locks the moment you walk away from it.</p>
     <div class="cta">
-      <a class="button" href="https://github.com/robertbrada/macaway-app/releases/latest">Download for macOS</a>
+      <span class="button button-off">Not released yet</span>
     </div>
-    <p class="requirement">macOS 13 or later &middot; Apple silicon and Intel</p>
+    <p class="requirement">MacAway is in private testing and is not available to download.<br>macOS 13 or later &middot; Apple silicon and Intel</p>
   </header>
 
   <section>
@@ -121,7 +127,7 @@
   </section>
 
   <footer>
-    <p><a href="https://github.com/robertbrada/macaway-app/releases">All releases</a></p>
+    <p>An early release is being tested with a small number of people.</p>
   </footer>
 </div>
 </body>

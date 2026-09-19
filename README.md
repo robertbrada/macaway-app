@@ -3,7 +3,7 @@
 Guard mode for a MacBook. MacAway locks your Mac within seconds of you walking away from
 it, following the iPhone or Apple Watch already in your pocket over Bluetooth.
 
-**[Download the latest release](https://github.com/robertbrada/macaway-app/releases/latest)** ·
+**Not released yet.** MacAway is in private testing with a small number of people.
 [macaway.app](https://macaway.app/)
 
 - Nothing to install on an iPhone or Apple Watch signed in to the same Apple ID as the Mac.
